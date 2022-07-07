@@ -1,0 +1,151 @@
+
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} 
+textarea {overflow:auto;}
+
+/***** RESET *****/
+ 
+    /*#üst {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        min-width: 100%;
+        min-height: 100%;
+      }bütün ekran resim yapma kodu*/
+
+
+
+
+/*
+.anasayfa{width: 1800px; height: 8000px;}
+.üstanasayfa{width: 100%; height: 30px ;background: #a7a7a7 ; color: aqua; margin: auto auto; padding: 20px 0; position: fixed}
+.üstanasayfa li{float: left;}
+.üstanasayfa li a{display: block; width: 100%; height: 25px;}
+.üstanasayfa li#home a{width: 575px; height: 25px;  background: url(applelogo.png) no-repeat; text-align: left; margin: 0 0 0 25px;}
+.üstanasayfa li#home a:hover {background: rgb(49, 49, 80); text-decoration: underline;}
+.üstanasayfa li#bg a{width: 50px; height: 25px;  background: url(bilgisayar\ resmi1.png)no-repeat; text-align: left;}
+.üstanasayfa li#bg a:hover {background: rgb(49, 49, 80); text-decoration: underline;}
+.üstanasayfa li#tt a{width: 50px; height: 25px;  background: url(tab-tel.png)no-repeat; text-align: left;}
+.üstanasayfa li#tt a:hover {background: rgb(49, 49, 80); text-decoration: underline;}
+.üstanasayfa li#hs a{width: auto; height: 25px; margin: 10px 0 0 450px}
+.üstanasayfa li#bt a{width: 400px; height: 25px;  border: 0px solid #000; text-align: right; position: fixed;}
+#country:hover{width: 200px;height: 25px; background:  rgb(49, 49, 80); }
+.ortasayfa{width: 1600px ;height: 375px;background: #fff; margin: 50px 150; border: 7px solid rgba(5, 74, 87, 0.616); padding: 100px 0;}
+.ortasayfa li a{width: 500px; height: 600px; color:rgb(49, 49, 80);font: 36px rgb(75, 3, 3) tahoma; border: 1px solid #fff;margin:0 50px; text-decoration: none;}
+#yazi1{width: 500px; height: 600px; background:rgb(49, 49, 80);font: 36px tahoma; border: 1px solid #000;margin:0 50px;}
+#yazi1:hover{width: auto;height: 25px;border:1px solid red; background:rgb(49, 49, 80);text-decoration: underline;}
+.ortasayfa{width: 1600px; height: 800px;background: #fff;margin: 50px 0;}
+.ortasayfa li {float: left;}
+.ortasayfa li a{display: block; width: 800px;height: 50px; background: powderblue; border: 1px solid black}
+*/
+body{background: #16171B; height: 4500px;}
+/*.anasayfa{width: 3000px; height: 8000px; background: url(web\ tasaarım.webp) no-repeat; margin:0 215px;}
+.anasayfa2{width: 3000px; height: 8000px; background: url(web\ tasaarım.webp) no-repeat; margin:0 215px; position: absolute; top: 2000px;}*/
+.üst{width: 100%; height: 30px ;background: #000 ; margin: auto auto; padding: 20px 0; position: fixed; position: absolute; top: 20px;}
+.üst li{float: left;}
+.üst li a{display: block; width: 100%; height: 25px;}
+.üst li#home a{width: 575px; height: 25px;  background: url(applelogo.png) no-repeat; text-align: left; margin: 0 0 0 25px;}
+.üst li#home a:hover {text-decoration: underline;}
+.üst li#bg a{width: 50px; height: 25px;  background: url(bilgisayar\ resmi1.png)no-repeat; text-align: left;}
+.üst li#bg a:hover { text-decoration: underline;}
+.üst li#tt a{width: 50px; height: 25px;  background: url(tab-tel.png)no-repeat; text-align: left;}
+.üst li#tt a:hover { text-decoration: underline;}
+.üst li#hs a{ height: 25px; margin: 10px 0 0 450px}
+.üst li#bt a{width: 400px; height: 25px;  border: 0px solid #000; text-align: right;}
+#country{width: 200px;height: 25px; background:  #F9FAFF; color: #292B32;}
+.ortaüst{width: 800px; height: 150px; margin: 0 0 0 600px;padding: 100px 40px 0 0 ;position: absolute; top: 30px;}
+.ortaüst li a{ float: left; display: block; width: 150px; height: 30px;color: #fff; font:bold 12px tahoma; border: 2px solid #000; text-decoration: none;}
+.ortaüst li#Sec a{ margin: 0 0 0 400px; border: none; padding: 3px 0 0 0;}
+.ortaüst li#sg a{background: #4586;}
+.ortaüst li#sg:hover a{opacity: 0.8;}
+.orta1 { width: 600px;height: 300px;  color: #F9FAFF; font: bold 38px;text-align: "justify"; margin: 0 800px 0 400px;position: absolute; top: 400px;}
+.orta1 a{ display: inline-flex; width: 248px; height: 46px;background: rgb(49, 49, 80); font: bold 14px;line-height: 45px; color: #6a6f82;padding: 12px 31px; text-decoration: none;margin: 10px 0 0 45px; }
+.orta1 a:hover{opacity: 0.5;}
+.menü1 {display: flex; width: 800px; height: 80px; position: absolute; top: 850px; left: 400px;}
+.menü1 li {float: left;}
+.menü1 li#fc {margin: 0 0 0 25px;}
+.menü1 li#td {margin: 0 0 0 75px;}
+.menü1 li#air {margin: 0 0 0 100px;}
+.menü1 li#mic {margin: 0 0 0 100px;}
+.menü1 li#hub {margin: 0 0 0 100px;}
+.orta2 {width: 800px; height: 186px;font-size: 24px; color: #959CB1;position: absolute; top: 1000px; left: 500px;text-align: center;}
+.orta2 h1 {font-size: bold 30px; color:#fff; } 
+.video { position: absolute; top: 1250px; left: 550px;}
+.yazi{width: 800px; height: 186px; font-size: 24px; color: #959CB1 ;position: absolute; top: 1700px; left: 500px;text-align: center;}
+.yazi h1 {font-size: bold 30px; color:#fff; padding: 40px 0 0 0;} 
+.kutu1 {width: 800px; height: 300px; font-size: 16px; color:#959CB1 ;position: absolute; top: 2000px; left: 550px;text-align: center; }
+.kutu1 li {float :left; }
+.kutu1 li#bir {font: bold 20px; padding: 0 0 0 40px; } 
+.kutu1 h1 {font: bold 20px; padding: 40px 0 0 0; } 
+.kutu1 li#iki {font: bold 20px; padding: 0 0 0 150px; } 
+.kutu2 {width: 800px; height: 300px; font-size: 16px;color: #959CB1;position: absolute; top: 2400px; left: 550px;text-align: center; }
+.kutu2 li {float :left; }
+.kutu2 li#bir {font: bold 20px; padding: 0 0 0 40px; } 
+.kutu2 h1 {font: bold 20px; padding: 40px 0 0 0; color: #fff;} 
+.kutu2 li#iki {font: bold 20px; padding: 0 0 0 150px; } 
+.kutu3 {width: 800px; height: 300px; font-size: 16px; color:#959CB1 ;position: absolute; top: 2800px; left: 550px;text-align: center; }
+.kutu3 li {float :left; }
+.kutu3 li#bir {font: bold 20px; padding: 0 0 0 40px; } 
+.kutu3 h1 {font: bold 20px; padding: 40px 0 0 0; } 
+.kutu3 li#iki {font: bold 20px; padding: 0 0 0 150px; } 
+.yazi2{width: 800px; height: 186px; font-size: 24px; color: #959CB1 ;position: absolute; top: 3150px; left: 500px;text-align: center;}
+.yazi2 h1 {font-size: bold 30px; color:#fff; padding: 40px 0 0 0;} 
+.karekutu{ width: 100%; height: 372px; font-size: 24px; color:#959CB1 ;position: absolute; top: 3450px ;text-align: justify;padding: 20px  0 0 0;}
+.kutu4 {display: block; width: 344px; height: 372px; background: #292B32;position:absolute;   left: 300px;padding: 20px 20px  0  20px;} 
+.kutu5 {display: block; width: 344px; height: 372px; background: #292B32; position:absolute;  left: 750px;padding: 20px 20px 0 20px;}
+.kutu6 {display: block; width: 344px; height: 372px; background: #292B32; position:absolute;  left: 1200px;padding: 20px 20px 0 20px;}
+ .mail {width: 508px; height: 200px;background: url(mail1.webp);margin: 450px 0 0 690px;}
+.mail {font-size:28px; color: #F9FAFF;padding: 60px 0 0 0;text-align: center;}
+.mail a {display: block; width: 200px; height: 40px;background: #F9FAFF; color: #6a6f82;margin: 40px 0 0 154px}
+.alt{width: 100%; height: 50px ;background: #fff ; color:#959CB1;position: fixed; position: absolute; top: 800px;padding: 10px 0 0 50px;}
+.alt li{float: left;}
+.alt li#Ia {display: block; width: 100px;padding-left: 55%;}
+.alt li#Ia:hover {text-decoration: underline;}
+/*.menü1 {width: 100000px; height: 100px; margin: 10px 0 0 0;}
+.menü1 ul {margin: 0; padding: 0; text-decoration: none}
+.menü1 ul a {display:block; background: black; }
+
+.menü2 {width: 600px; height: 60px; margin: 30px 0 0 0;}
+.menü2 ul {margin: 0; padding: 0; text-decoration: none}
+.menü2 ul li {float: left}
+.menü2 ul a {display:block; width: 120px; height: 24px; background: #fcc ;color: #930 ; font: bold 12px tahoma; text-decoration: none; text-align: center; padding: 8px 0 0 0 ;}
+.menü2 ul a:hover {color:#fff;background: #930; text-decoration: underline; }
+
+.menü3 {width: 152px; height: 170px; margin: 30px 0 0 0;}
+.menü3 ul {margin: 0; padding: 0; list-style:none }
+.menü3 ul li {position: relative; }
+.menü3 ul  a {display:block; width: 150px; background: #fcc ;color: #930 ; font: bold 12px tahoma; text-decoration: none; padding: 9px 5px; border: 1px solid #800;}
+.menü3 ul  a:hover {color:#fff;background: #930; text-decoration: underline; }
+.menü3 ul li ul {display: none; position: absolute; left: 162px; top:0}
+.menü3 ul li:hover ul {display: block; }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
